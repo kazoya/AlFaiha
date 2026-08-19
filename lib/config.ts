@@ -28,6 +28,11 @@ export const siteConfig = {
   hoursAr: "ساعات الدوام الداخلي غير منشورة على الموقع",
   addressAr: "عمّان، الأردن",
   promiseAr: "مطابقة إضافة خرسانة لمشروع لا تُسعَّر إلا بعد اعتمادك",
+  engine: "مشاريع مقاولات",
+  gap: "الموقع الحالي «قريباً» بلا كتالوج. نبني على ما هو معلن عن نشاط الشركة دون اختراع أصناف.",
+  industry: "كيماويات إنشاءات منذ 1987",
+  hero: "المهندس يريد إضافة خرسانة تطابق المواصفة. المنصة تقترح وأنت تعتمد",
+  websiteHost: "alfaihagroup.com",
   developer: { nameAr: "م. صهيب الصالح", phone: "962787523192", prefill: "AlFaiha" },
 } as const;
 export function getDiscoveryFormUrl(): string { return readPublic("NEXT_PUBLIC_DISCOVERY_FORM_URL"); }
